@@ -2,11 +2,16 @@
 #include <ESP8266HTTPClient.h>
 #include <Arduino_JSON.h>
 
-const char* ssid = "OPPO F19 Pro+";
-const char* password = "Wills@22";
+// const char* ssid = "OPPO F19 Pro+";
+// const char* password = "Wills@22";
+
+const char* ssid = "DESKTOP-7NNK24K 2329";
+const char* password = "TEST1234";
 
 //Your Domain name with URL path or IP address with path
-String serverName = "http://192.168.0.145:3000";
+// String serverName = "http://192.168.0.145:3000";
+String serverName = "http://192.168.137.245:3000";
+ 
 // the following variables are unsigned longs because the time, measured in
 // milliseconds, will quickly become a bigger number than can be stored in an int.
 unsigned long lastTime = 0;
